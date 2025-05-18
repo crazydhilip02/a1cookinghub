@@ -41,9 +41,10 @@ const Hero: React.FC = () => {
               Order Now <ArrowRight size={18} />
             </button>
             <a 
-              href="/menu" 
+              href="menu" 
               className="btn btn-outline text-white border-white hover:bg-white hover:text-gray-800"
             >
+              
               View Menu
             </a>
           </div>
