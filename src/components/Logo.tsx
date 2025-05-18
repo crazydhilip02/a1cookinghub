@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Assets/logo.jpg'
+import logo from '../Assets/favicon.png'
 
 const Logo: React.FC = () => {
   return (

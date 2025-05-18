@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu, X, MessageSquare } from 'lucide-react'; // Replacing Phone icon
-import Logo from './Logo'; // Your older logo component or image
+import Logo from './Logo'; 
 import { styles } from '../utils/styles'; // if you're using custom styles
 
 const Header: React.FC = () => {
