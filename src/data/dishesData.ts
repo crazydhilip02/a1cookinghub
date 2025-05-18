@@ -49,7 +49,7 @@ export const dishes: Dish[] = [
     name: 'Paneer Tikka',
     description: 'Chunks of cottage cheese marinated in spices and yogurt, grilled to perfection.',
     price: 220,
-    image: 'https://images.pexels.com/photos/9797029/pexels-photo-9797029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://th.bing.com/th/id/OIP.YmlRW-vcy_j2WrrXykyBKwHaE7?w=282&h=188&c=7&r=0&o=5&pid=1.7',
     category: 'main-course',
     isVeg: true
   },
@@ -58,7 +58,7 @@ export const dishes: Dish[] = [
     name: 'Gulab Jamun',
     description: 'Soft, spongy milk solids balls soaked in sugar syrup flavored with cardamom and rose water.',
     price: 150,
-    image: 'https://images.pexels.com/photos/14477873/pexels-photo-14477873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://th.bing.com/th/id/OIP.Q8gv7WfjLk1bHFMz0LJi5QHaE8?w=278&h=185&c=7&r=0&o=5&pid=1.7',
     category: 'desserts',
     isVeg: true
   },
@@ -76,7 +76,7 @@ export const dishes: Dish[] = [
     name: 'Idli Sambar',
     description: 'Steamed rice cakes served with lentil soup and coconut chutney.',
     price: 100,
-    image: 'https://images.pexels.com/photos/4331490/pexels-photo-4331490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://th.bing.com/th/id/OIP.K7-S5d3uExKZlXabRtrfowHaE8?w=279&h=186&c=7&r=0&o=5&pid=1.7',
     category: 'breakfast',
     isVeg: true
   },
@@ -85,7 +85,7 @@ export const dishes: Dish[] = [
     name: 'Samosa',
     description: 'Crispy pastry filled with spiced potatoes and peas.',
     price: 50,
-    image: 'https://images.pexels.com/photos/14000522/pexels-photo-14000522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://th.bing.com/th/id/OIP.P6JusBURC7CWnKo7p4ZnxwHaE8?w=269&h=180&c=7&r=0&o=5&pid=1.7',
     category: 'snacks',
     isVeg: true
   },
@@ -94,7 +94,7 @@ export const dishes: Dish[] = [
     name: 'Masala Chai',
     description: 'Spiced tea brewed with milk and sweetened with sugar.',
     price: 40,
-    image: 'https://images.pexels.com/photos/6341408/pexels-photo-6341408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://th.bing.com/th/id/OIP.aeFH_5t8z6pKr8PFKrLfQAHaEj?w=287&h=180&c=7&r=0&o=5&pid=1.7',
     category: 'beverages',
     isVeg: true
   },
@@ -112,7 +112,7 @@ export const dishes: Dish[] = [
     name: 'Rasmalai',
     description: 'Soft cottage cheese dumplings soaked in creamy, sweetened, thickened milk.',
     price: 180,
-    image: 'https://images.pexels.com/photos/14705136/pexels-photo-14705136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://th.bing.com/th/id/OIP.KmEuJSZX-hqrWPHeygrvOwHaFD?w=267&h=182&c=7&r=0&o=5&pid=1.7',
     category: 'desserts',
     isVeg: true
   },
@@ -121,7 +121,7 @@ export const dishes: Dish[] = [
     name: 'Pav Bhaji',
     description: 'Mashed vegetable curry served with buttered bread rolls.',
     price: 120,
-    image: 'https://images.pexels.com/photos/8629542/pexels-photo-8629542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://th.bing.com/th/id/OIP.tBZl8jYVpTzrJxuyBpcyDAHaE8?w=240&h=180&c=7&r=0&o=5&pid=1.7',
     category: 'main-course',
     isVeg: true
   },
@@ -130,7 +130,7 @@ export const dishes: Dish[] = [
     name: 'Fresh Lime Soda',
     description: 'Refreshing drink made with fresh lime juice, sugar, and soda water.',
     price: 60,
-    image: 'https://images.pexels.com/photos/3652348/pexels-photo-3652348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://th.bing.com/th/id/OIP.9hTUmtuYE4BtCK1iJ1M6KQHaE8?w=294&h=196&c=7&r=0&o=5&pid=1.7',
     category: 'beverages',
     isVeg: true
   },
