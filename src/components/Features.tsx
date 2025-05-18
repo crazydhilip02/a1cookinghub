@@ -13,11 +13,11 @@ const Features: React.FC = () => {
       title: 'Quality Ingredients',
       description: 'We use only the freshest ingredients to prepare your meals.'
     },
-    {
-      icon: <Users className="h-12 w-12 text-primary" />,
-      title: 'Catering Services',
-      description: 'From small gatherings to large events, we\'ve got your catering needs covered.'
-    },
+    // {
+    //   icon: <Users className="h-12 w-12 text-primary" />,
+    //   title: 'Catering Services',
+    //   description: 'From small gatherings to large events, we\'ve got your catering needs covered.'
+    // },
     {
       icon: <Truck className="h-12 w-12 text-primary" />,
       title: 'Prompt Delivery',
@@ -33,7 +33,7 @@ const Features: React.FC = () => {
           <p>Discover what sets A1 Cooking Hub apart from the rest</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div 
               key={index} 
