@@ -36,7 +36,7 @@ const FoodCard: React.FC<FoodCardProps> = ({ dish, featured = false }) => {
       </div>
       <div className={styles.cardContent}>
         <h3 className={styles.cardTitle}>{dish.name}</h3>
-        <p className={styles.cardPrice}>{formatCurrency(dish.price)}</p>
+        {/* <p className={styles.cardPrice}>{formatCurrency(dish.price)}</p> */}
         <p className={styles.cardDescription}>{dish.description}</p>
         <button 
           onClick={handleOrder}

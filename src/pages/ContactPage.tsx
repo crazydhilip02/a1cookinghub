@@ -77,7 +77,7 @@ const ContactPage: React.FC = () => {
                       <h3 className="font-semibold text-lg text-secondary">Email</h3>
                       <p className="text-text-medium">
                         <a href="mailto:info@a1cookinghub.com" className="hover:text-accent transition-colors">
-                          info@a1cookinghub.com
+                          a1cookinghub@gmail.com
                         </a>
                       </p>
                     </div>
@@ -90,7 +90,7 @@ const ContactPage: React.FC = () => {
                     <div>
                       <h3 className="font-semibold text-lg text-secondary">Location</h3>
                       <p className="text-text-medium">
-                        A1 Cooking Hub, Food Street, City Center
+                       Hosa road, Bangalore 560099
                       </p>
                     </div>
                   </div>

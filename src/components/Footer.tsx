@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Mail, MapPin, Phone, Clock } from 'lucide-react';
+import { Instagram, Facebook, Mail, MapPin, Phone, Clock,ArrowRight } from 'lucide-react';
+import { openWhatsApp } from '../utils/helpers';
 import Logo from './Logo';
 
 const Footer: React.FC = () => {
@@ -72,15 +73,15 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 mt-0.5 text-primary" />
                 <span>
-                  <a href="mailto:info@a1cookinghub.com" className="text-text-secondary hover:text-primary transition-colors">
-                    info@a1cookinghub.com
+                  <a href="mailto:a1cookinghub@gmail.com" className="text-text-secondary hover:text-primary transition-colors">
+                   a1cookinghub@gmail.com
                   </a>
                 </span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-primary" />
                 <span className="text-text-secondary">
-                  A1 Cooking Hub, Food Street, City Center
+                  A1 Cooking Hub, Hosa road, Bangalore 560099
                 </span>
               </li>
             </ul>
@@ -100,17 +101,13 @@ const Footer: React.FC = () => {
               <p className="text-primary font-medium">
                 Order via WhatsApp anytime!
               </p>
-              <a 
-                href="https://wa.me/917090707243" 
-                className="mt-2 inline-flex items-center text-primary-light hover:text-white transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Order Now
-                <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16.6 7.42l-4.6 4.6-4.6-4.6L6 8.82l6 6 6-6z" />
-                </svg>
-              </a>
+              <br/>
+              <button 
+              onClick={() => openWhatsApp('Hello, I would like to place an order')}
+              className="btn btn-secondary"
+            >
+              Order Now <ArrowRight size={18} />
+            </button>
             </div>
           </div>
         </div>
