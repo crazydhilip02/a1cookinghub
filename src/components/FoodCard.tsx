@@ -11,7 +11,7 @@ interface FoodCardProps {
 
 const FoodCard: React.FC<FoodCardProps> = ({ dish, featured = false }) => {
   const handleOrder = () => {
-    const message = `Hello, I would like to order: ${dish.name} (${formatCurrency(dish.price)})`;
+    const message = `Hello, I would like to order: ${dish.name} `;
     openWhatsApp(message);
   };
 
